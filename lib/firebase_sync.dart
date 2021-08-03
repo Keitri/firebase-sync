@@ -1,7 +1,11 @@
 library firebase_sync;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'package:firebase_sync/models/sync_task.dart';
+
+class FirebaseSync {
+  // Start Sync
+  // Stop Sync
+
+  // Add Task
+  Future addTask(SyncTask task) async {}
 }
